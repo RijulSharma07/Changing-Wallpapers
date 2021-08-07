@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.para {
+  padding-left: 15px;
+  text-align: center;
+  font-weight: bolder;
+  color: azure;
+}
+
+/* Glitch effect */
+
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(./images/bg6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  position: absolute;
+  background: url(./images/bg6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Top 4 Anime Characters</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column active">
+        <div class="content">
+          <h1>1</h1>
+          <div class="box">
+            <h2>Goku</h2>
+            <p>
+              Goku comes from a race of now nearly extinct extraterrestrials
+              called Saiyans, himself having been sent from their home planet to
+              prepare Earth for sale on the intergalactic market by destroying
+              all its life.
+              <br />
+              <br />
+              <br />
+
+              <button onclick="myOnClickFn()"><a href="#">More Info</a></button>
+              <script>
+                function myOnClickFn() {
+                  document.location.href = "goku.html";
+                }
+              </script> 
+            </p>
+          </div>
+        </div>
+        <div class="bg bg1"></div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h1>2</h1>
+          <div class="box">
+            <h2>Satoru Gojo</h2>
+            <p>
+              Immense Cursed Energy: Satoru Gojo is known within the jujutsu
+              society as the strongest jujutsu sorcerer. He earned this alias
+              due to the immense amounts of cursed energy he possesses. Gojo's
+              cursed energy is vast enough to use a Domain Expansion multiple
+              times per day.
+              <br />
+              <br />
+              <br />
+
+              <button onclick="myOnClickFn1()"><a href="#">More info</a></button>
+              <script>
+                function myOnClickFn1() {
+                  document.location.href = "two.html";
+                }
+              </script>
+            </p>
+          </div>
+        </div>
+        <div class="bg bg2"></div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h1>3</h1>
+          <div class="box">
+            <h2>Naruto</h2>
+            <p>
+              Naruto Uzumaki is a fictional character in the manga and anime
+              franchise Naruto, created by Masashi Kishimoto. Serving as the
+              eponymous protagonist of the series, he is a young ninja from the
+              fictional village of Konohagakure.
+              <br />
+              <br />
+              <br />
+
+              <button onclick="myOnClickFn2()"><a href="#">More info</a></button>
+              <script>
+                function myOnClickFn2() {
+                  document.location.href = "three.html";
+                }
+              </script>
+            </p>
+          </div>
+        </div>
+        <div class="bg bg3"></div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h1>4</h1>
+          <div class="box">
+            <h2>Saitama</h2>
+            <p>
+              Saitama, an unassociated hero, hails from City Z and performs
+              heroic deeds as a hobby. He has trained himself to the point of
+              being able to defeat any enemy with a single punch, but his
+              unmatched strength has left him with an overwhelming sense of
+              boredom.
+              <br />
+              <br />
+              <br />
+
+              <button onclick="myOnClickFn3()"><a href="#">more info</a></button>
+              <script>
+                function myOnClickFn3() {
+                  document.location.href = "four.html";
+                }
+              </script>
+            </p>
+          </div>
+        </div>
+        <div class="bg bg4"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).on("mouseover", ".container .column", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+  </body>
+</html>
